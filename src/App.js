@@ -14,17 +14,13 @@ class App extends Component {
   }
 
   handleNext = () => {
-
     this.handleState(1);
-
   }
 
   handleState(index) {
-    console.log(this.state.currentImg);
     this.setState({
       currentImg: this.state.currentImg + index
     })
-    console.log(this.state.currentImg);
   }
 
 
